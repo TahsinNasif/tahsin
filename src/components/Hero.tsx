@@ -16,7 +16,7 @@ export default function Hero({ onContactClick, onWorkClick }: HeroProps) {
         delayChildren: 0.1,
       },
     },
-  };
+  } as const;
 
   const itemVariants = {
     hidden: { opacity: 0, y: 30 },
@@ -24,12 +24,12 @@ export default function Hero({ onContactClick, onWorkClick }: HeroProps) {
       opacity: 1,
       y: 0,
       transition: {
-        type: "spring",
+        type: "spring" as const,
         stiffness: 100,
         damping: 15,
       },
     },
-  };
+  } as const;
 
   const stats = [
     { value: "50+", label: "Projects Completed" },

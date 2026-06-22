@@ -1,4 +1,4 @@
-import { Project, Testimony, TimelineEvent, ServiceExpertise, SkillItem } from "./types";
+import { Project, Testimony, TimelineEvent, ServiceExpertise } from "./types";
 
 export const projects: Project[] = [
   {

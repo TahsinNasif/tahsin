@@ -1,4 +1,4 @@
-import { Palette, Search, Layers, Cpu, ArrowUpRight } from "lucide-react";
+import { Palette, Search, Layers, Cpu } from "lucide-react";
 import { motion } from "motion/react";
 import { services, skillsGrouped } from "../data";
 

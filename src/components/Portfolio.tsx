@@ -203,7 +203,7 @@ export default function Portfolio() {
                     <span className="text-[#908fa0] text-[10px] uppercase font-bold tracking-wider">Timeline</span>
                     <div className="text-sm font-semibold text-[#e0e3e5] mt-1">{selectedProject.timeline}</div>
                   </div>
-                  {selectedProject.metrics.map((metric, mi) => (
+                  {selectedProject.metrics.map((metric) => (
                     <div key={metric.label}>
                       <span className="text-[#908fa0] text-[10px] uppercase font-bold tracking-wider">{metric.label}</span>
                       <div className="text-lg font-bold text-[#c0c1ff] mt-1">{metric.value}</div>
