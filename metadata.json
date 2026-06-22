@@ -1,0 +1,6 @@
+{
+  "name": "Alex Morgan Portfolio",
+  "description": "High-fidelity digital product design portfolio featuring custom shaders, fully detailed case study breakdowns, and responsive grid panels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
